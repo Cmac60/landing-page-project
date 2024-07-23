@@ -42,7 +42,7 @@ a {
 .title-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex: auto;
     gap: 20px;
@@ -130,4 +130,46 @@ button {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Part 4: Call to Action */
+
+.action-call {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px 100px;
+    padding: 30px 10px;
+}
+
+.call-text {
+    display: flex;
+    flex-flow: column;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.call-subtext {
+    margin: 0;
+}
+
+.call-button {
+    border: 1px solid white;
+}
+
+/* Part 5: Footer */
+
+footer {
+    padding: 30px;
+    color: #F9FAF8;
+    text-align: center;
+    background-color: #1F2937;
 }
