@@ -13,7 +13,7 @@ a {
 /* Part 1: Header */
 
 .header-content {
-    background-color: #1F2937;
+    background-color: darkblue;
     border: 2px solid black;
     padding: 0 150px 80px 150px;
     display: flex;
@@ -66,8 +66,8 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    width: 80px;
-    height: 25px;
+    width: 100px;
+    height: 35px;
 }
 
 .placeholder-img {
@@ -92,7 +92,7 @@ button {
 
 .images {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
@@ -100,7 +100,7 @@ button {
 
 .content-img {
     max-width: 200px;
-    border: 2px solid skyblue;
+    border: 2px solid red;
     border-radius: 25px;
 }
 
@@ -129,14 +129,14 @@ button {
 .quote-attribution {
     color: #1F2937;
     font-weight: bold;
-    align-self: flex-end;
+    align-self: center;
 }
 
 /* Part 4: Call to Action */
 
 .action-call {
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: darkgreen;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -171,5 +171,5 @@ footer {
     padding: 30px;
     color: #F9FAF8;
     text-align: center;
-    background-color: #1F2937;
+    background-color: darkblue;
 }
